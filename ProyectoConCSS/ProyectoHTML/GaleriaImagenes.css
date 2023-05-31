@@ -1,0 +1,43 @@
+table{
+    background-color: white;
+    border-top-right-radius: 10px;
+    
+}
+.galeriaImagenes caption{
+    font-size: 30px;
+    background-color: white;
+    width: 30%;
+    border-top-right-radius: 20px;
+    text-align:left;    
+    padding: 5px; 
+    position: relative;
+}
+div.galeriaImagenes{
+    position: relative;
+    top:150px;
+    
+    
+}
+.imagenesPrincipal img:hover,  img:hover{
+    transform: scale(1.2);
+}
+.imagenesPrincipal img{
+    transition: transform 0.2s;
+     width:300px;
+     height:200px;    
+    border-radius: 50px;
+    border:2px solid black;
+    
+}
+
+/*Boton ver mas*/
+details{
+    float: right;
+    color:black;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding: 10px;
+        
+
+    
+}
